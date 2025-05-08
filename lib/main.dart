@@ -49,7 +49,7 @@ class _LoginUIState extends State<LoginUI> {
                   MaterialPageRoute(builder: (context) => ScreenOne()),
                 );
               },
-              child: Text("Continue"),
+              child: Text("continue"),
             ),
           ],
         ),
@@ -110,7 +110,7 @@ class _LoginUIState extends State<LoginUI> {
                 border: OutlineInputBorder(),
               ),
             ),
-            SizedBox(height: 24),
+            SizedBox(height: 25),
 
             Center(
               child: Container(
