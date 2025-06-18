@@ -49,7 +49,7 @@ class _LoginUIState extends State<LoginUI> {
                   MaterialPageRoute(builder: (context) => ScreenOne()),
                 );
               },
-              child: Text("continue"),
+              child: Text("Continue"),
             ),
           ],
         ),
@@ -60,7 +60,7 @@ class _LoginUIState extends State<LoginUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Login Page')),
+      appBar: AppBar(title: Text('login Page')),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
@@ -118,7 +118,7 @@ class _LoginUIState extends State<LoginUI> {
                 width: 250,
                 child: ElevatedButton(
                   onPressed: login,
-                  child: Text('Login'),
+                  child: Text('login'),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color.fromARGB(231, 43, 4, 239),
                     foregroundColor: const Color.fromARGB(255, 237, 231, 231),
