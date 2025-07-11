@@ -99,7 +99,7 @@ class _LoginUIState extends State<LoginUI> {
                 border: OutlineInputBorder(),
               ),
             ),
-            SizedBox(height: 25),
+            SizedBox(height: 26),
 
             // Password Field
             TextField(
