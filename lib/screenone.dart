@@ -10,8 +10,8 @@ class ScreenOne extends StatelessWidget {
           children: [
             Image.network(
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuma4_mk0Bl-wHf6nA35f9UnScGPxHEIbtvA&s',
-              width: 400,
-              height: 400,
+              width: 401,
+              height: 401,
               loadingBuilder: (
                 BuildContext context,
                 Widget child,
@@ -32,7 +32,7 @@ class ScreenOne extends StatelessWidget {
               },
             ),
            
-            SizedBox(height: 20),
+            SizedBox(height: 21),
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
